@@ -18,5 +18,5 @@ int main() {
   } while (i < 1e+9);
 
   /* Printing result */
-  printf("Summed %ld terms, 1/2 is %1.16f\n", i - 1, sum);
+  printf("Summed %ld terms, 1/2 is %1.16f\n", (i - 1) / 2, sum);
 }
